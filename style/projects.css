@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #BFDAFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 12vh;
+    font-size: 25px;
+  }
+  
+  .logo img {
+    height: 200px;
+    padding: 0;
+    margin-left: 10%;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 35px;
+    margin-right: 50px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .menu li a:hover {
+    background-color: #004AAD;
+    color: white;
+  }
+  
+  .project-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-list li {
+    width: 48%; /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 20px;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-description {
+    background-color: white;
+    padding: 10px;
+  }
+    
+  main h1{
+    font-size: 150px;
+  }
+
+  main {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to left, #BFDAFF, #004AAD, #FF3131);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    min-height: calc(75vh - 70px); 
+  }
+  
+  main h1{
+    font-size: 150px;
+    color: white;
+  }
+  
+  
+  footer {
+    background-color: #BFDAFF;
+    height: 50px;
+  }
+    
