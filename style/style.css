@@ -56,8 +56,32 @@ main h1{
   font-size: 150px;
 }
 
-footer {
-  background-color: #BFDAFF;
-  height: 50px;
+main p{
+  font-size: 30px;
+  border-radius: black 50%;
+  text-shadow: #000;
 }
-  
+
+footer {
+  background-color: #66C7F4;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: #131200;
+  text-decoration: none;
+  font-family: Lato, 'Bruno Ace SC', 'Instrument Serif';
+}
+
+footer a:hover{
+  color: #131200;    
+}
+
+footer p{
+  font-size: 1.2em;
+  text-decoration: underline;
+  font-family: Lato, 'Bruno Ace SC', 'Instrument Serif';
+}
