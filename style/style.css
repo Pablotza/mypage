@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Grandiflora+One&family=Libre+Baskerville:wght@700&family=Raleway:wght@300&display=swap');
 
+*{
+  box-sizing: border-box;
+}
 
-body {
+body html {
+  height: 100%;
   margin: 0;
-  padding: 0;
+  width: 100%;
 }
 
 header {
@@ -13,6 +17,7 @@ header {
   align-items: center;
   justify-content: space-between;
   min-height: 12vh;
+  width: 100vw;
   font-size: 25px;
 }
 
@@ -42,15 +47,45 @@ header {
   color: white;
 }
 
-main {
-  text-align: center;
-  padding: 20px;
-  background: linear-gradient(to left, #BFDAFF, #004AAD, #FF3131);
+.hero-image {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  min-height: calc(75vh - 70px); 
+  position: relative;
 }
+
+.hero-image img{
+  width: 100vw;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 5px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
 
 main h1{
   font-size: 150px;
@@ -68,6 +103,9 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100vw;
 }
 
 footer a {

@@ -56,17 +56,38 @@ body {
     font-size: 150px;
   }
 
+  main a{
+    font-size: 600px;
+  }
+
   .social-media-container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .social-media-container img {
-    width: 170px;
-    height: auto; 
+.fa {
+  padding: 50px;
+  font-size: 80px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
   }
   
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
   
   footer {
     background-color: #66C7F4;
